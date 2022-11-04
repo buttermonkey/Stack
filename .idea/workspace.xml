@@ -1,19 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61745ed1-e0e6-4d3f-b398-ea0040a6ff35" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stack.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CardColor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CardStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CardStackDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CardValue.java" afterDir="false" />
+    <list default="true" id="61745ed1-e0e6-4d3f-b398-ea0040a6ff35" name="Changes" comment="Stack of cards">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CardStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CardStackDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CardStackDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,14 +31,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="CardStackDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CardStackDemo" />
@@ -70,11 +61,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666172586075</updated>
-      <workItem from="1666172587373" duration="1085000" />
+      <workItem from="1666172587373" duration="1396000" />
+      <workItem from="1667588980159" duration="404000" />
     </task>
+    <task id="LOCAL-00001" summary="Stack of cards">
+      <created>1666173859737</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666173859737</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Stack of cards" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stack of cards" />
   </component>
 </project>
