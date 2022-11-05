@@ -1,19 +1,19 @@
 public class Stack<T> {
-    private final T[] cards;
+    private final T[] values;
     private int counter;
 
     public Stack(T[] cards) {
-        this.cards = cards;
+        this.values = cards;
         this.counter = -1;
     }
 
     public void push(T card) {
-        if (counter + 1 >= cards.length) {
-            System.err.println("To many cards on the stack. This stack takes only " + cards.length + " cards.");
+        if (counter + 1 >= values.length) {
+            System.err.println("To many values on the stack. This stack takes only " + values.length + " values.");
             return;
         }
 
-        cards[++counter] = card;
+        values[++counter] = card;
     }
 
     public T pop() {
@@ -22,6 +22,6 @@ public class Stack<T> {
             return null;
         }
 
-        return cards[counter--];
+        return values[counter--];
     }
 }
